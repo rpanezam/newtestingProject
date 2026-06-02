@@ -1,6 +1,4 @@
-{
-  "students": [
-    { "id": 1, "name": "Sajib Dhaka", "grade": "A+" },
-    { "id": 2, "name": "John Doe", "grade": "A" }
-  ]
-}
+[
+  { "name": "Sajib Dhaka", "age": 25 },
+  { "name": "John Doe", "age": 22 }
+]
