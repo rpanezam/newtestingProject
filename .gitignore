@@ -1,0 +1,8 @@
+.vercel
+.env*.local
+.env
+node_modules/
+dist/
+jenkins-gcp-key.json
+jenkins.war
+*.log

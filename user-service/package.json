@@ -1,0 +1,22 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "User Service using JavaScript and TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "@supabase/supabase-js": "^2.43.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "prisma": "^5.18.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
