@@ -26,7 +26,7 @@ pipeline {
 
         stage('Build & Push') {
             steps {
-                bat 'gcloud builds submit --tag %IMAGE_NAME% .'
+                bat 'gcloud builds submit --tag %IMAGE_NAME% --no-logs-streaming .'
             }
         }
 
