@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    
+    triggers {
+        pollSCM('* * * * *') // Poll GitHub every minute for new changes
+    }
 
     environment {
         PROJECT_ID = 'gmail-and-telegram-480114'
